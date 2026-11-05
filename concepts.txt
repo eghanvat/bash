@@ -1,0 +1,21 @@
+process
+interprocess communication
+semaphores
+monitors
+message passing
+scheduling algorithms
+input/output deadlocks
+device drivers
+memory managment
+paging algorithms
+file system design
+security
+protection mechanisms
+
+
+//
+system calls
+process -> address space -> 0 to x -> program, data, stack, registers, uid, guid, superuser
+process table -> 
+signals
+child process
