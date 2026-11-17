@@ -1,19 +1,36 @@
-##Comment
+# Add this at start.
+#!/bin/bash
+#!/usr/bin/env bash
 
-# This is an inline Bash comment.
 
+# Comment
+#This is an inline Bash comment.
 : '
 This is a
 very neat comment
 in bash
 '
 
-##Variable
-
+# Variable
 name="John"
-echo ${name}    # => John (Variables)
-echo $name      # => John (Variables)
-echo "$name"    # => John (Variables)
-echo '$name'    # => $name (Exact string)
-echo "${name}!" # => John! (Variables)
 name = "John"   # => Error (about space)
+
+# Data
+array
+dict
+
+# Loop
+for
+while
+
+# condition
+if
+
+# functions
+# arguments
+# brace expansion
+# shell execution / commands
+
+
+
+
