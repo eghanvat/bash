@@ -1,0 +1,3 @@
+jobs 	Show the list of active jobs and their status.
+join 	For each pair of input lines, join them using a command field and display on standard output.
+journalctl 	Used to view systemd, kernal and journal logs.

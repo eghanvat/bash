@@ -1,0 +1,6 @@
+quota 	Shows disk usage, and space limits for a user or group. Without arguments, only shows user quotas.
+quotacheck 	Used to scan a file system for disk usage.
+quotactl 	Make changes to disk quotas.
+quotaoff 	Enable enforcement of filesystem quotas.
+quotaon 	Disable enforcement of filesystem quotas.
+quotastats 	Shows the report of quota system statistics gathered from the kernel.

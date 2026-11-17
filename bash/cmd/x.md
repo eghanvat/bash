@@ -1,0 +1,4 @@
+xargs 	Runs a command using initial arguments and then reads remaining arguments from standard input.
+xdg-open 	Used to open a file or URL in an application preferred by the user.
+xinetd 	Extended internet services daemon. Works similar to inetd.
+xz 	Compress/ Decompress .xz and .lzma files.
