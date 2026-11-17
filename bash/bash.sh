@@ -17,4 +17,6 @@ part=(
   "network"
   "dir"
   "colors"
+  "cmd"
+  "ex"
 )

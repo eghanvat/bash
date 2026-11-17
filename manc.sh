@@ -3,6 +3,9 @@
 #which program to use for displaying the content of the md file
 md='batcat'
 #md='glow'
+cmd='cmd'
+eg='ex'
+syntax='syntax'
 
 lang=(
   "bash"
@@ -36,6 +39,7 @@ part_choice() {
   fi
 
   if contains "$part_choice" "part"; then
+    cd $syntax
     if [[ -f "${part_choice}.md" ]]; then
       $md "${part_choice}.md"
       read -r -p "back b, exit q, number/name : " more
@@ -82,7 +86,7 @@ if [[ $topic =~ ^[0-9]+$ ]]; then
 fi
 
 if contains "$topic" "lang"; then
-  cd "$(dirname -- "${BASH_SOURCE[0]}")/$topic" || exit 1
+  cd "$(dirname -- "${BASH_SOURCE[0]}")/$topic/" || exit 1
   # Load the script into the current shell so you can use its functions/variables
   if [[ -f "${topic}.sh" ]]; then
     source "./${topic}.sh"
